@@ -1,0 +1,40 @@
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type:  none;
+}
+li::before {
+
+    content: '■';
+    color: red;
+    padding-right: 10px;
+}
+
+p {
+
+
+
+    text-indent: 20px;
+}
+
+.frame{
+    border: 3px solid #460f0f;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+input {
+    height: 20px;
+    width: 300px;
+}
+textarea {
+    width: 612px;
+}
